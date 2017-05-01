@@ -14,6 +14,7 @@
 		D893D46E1EB7BAF50047D807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D893D46C1EB7BAF50047D807 /* LaunchScreen.storyboard */; };
 		D893D4791EB7BAF50047D807 /* IObloodySTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D893D4781EB7BAF50047D807 /* IObloodySTests.swift */; };
 		D893D4841EB7BAF50047D807 /* IObloodySUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D893D4831EB7BAF50047D807 /* IObloodySUITests.swift */; };
+		D893D4921EB7BC190047D807 /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D893D4911EB7BC190047D807 /* TestFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D893D47F1EB7BAF50047D807 /* IObloodySUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IObloodySUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D893D4831EB7BAF50047D807 /* IObloodySUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IObloodySUITests.swift; sourceTree = "<group>"; };
 		D893D4851EB7BAF50047D807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D893D4911EB7BC190047D807 /* TestFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D893D46A1EB7BAF50047D807 /* Assets.xcassets */,
 				D893D46C1EB7BAF50047D807 /* LaunchScreen.storyboard */,
 				D893D46F1EB7BAF50047D807 /* Info.plist */,
+				D893D4911EB7BC190047D807 /* TestFile.swift */,
 			);
 			path = IObloodyS;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D893D4921EB7BC190047D807 /* TestFile.swift in Sources */,
 				D893D4661EB7BAF50047D807 /* ViewController.swift in Sources */,
 				D893D4641EB7BAF50047D807 /* AppDelegate.swift in Sources */,
 			);
